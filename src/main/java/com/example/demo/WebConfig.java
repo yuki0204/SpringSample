@@ -13,7 +13,7 @@ public class WebConfig {
 	public MessageSource messageSource() {
 		ReloadableResourceBundleMessageSource bean = new ReloadableResourceBundleMessageSource();
 
-		// メッサー時のプロパティファイル名（デフォルト）を指定
+		// メッセージのプロパティファイル名（デフォルト）を指定
 		// 下記は messages.properties ファイルがセットされてる
 		bean.setBasename("classpath:messages");
 
